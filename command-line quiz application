@@ -1,0 +1,19 @@
+const readline = require('readline-sync');
+let name = readline.question("What is your name? "); 
+console.log("Hello, " + name + "!");  
+console.log("");
+
+let question1 = readline.question("what is a string?");
+console.log("Answer: A string is a sequence of characters, " + question1 + "!");
+console.log("");
+let question2 = readline.question("what does Boolean mean?");   
+console.log("Answer: Boolean is a data type that can have one of two values: true or false, " + question2 + "!"); 
+console.log("");
+let question3 = readline.question("what does NaN mean?");
+console.log("Answer: NaN means Not a Number, " + question3 + "!");
+console.log("");
+let question4 = readline.question("what does null mean?");
+console.log("Answer: null means no value, " + question4 + "!");
+console.log("");
+let question5 = readline.question("what does Concatenation mean?"); 
+console.log("Answer: Concatenation is the process of combining two or more strings together, " + question5 + "!");
